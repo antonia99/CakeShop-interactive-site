@@ -1,0 +1,28 @@
+  #categorii{
+    color:#ffbf80;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: transparent;
+  }
+
+  .transition{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+.product-div1{
+    position:relative;
+    overflow:hidden;
+}
+.product-div1:hover #img{
+    transform: scale(1.1);
+}
+#img{
+    transform: scale(1);
+}
